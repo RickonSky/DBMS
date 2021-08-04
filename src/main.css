@@ -1,0 +1,66 @@
+/*loginpage styles*/
+#loginForm{
+	background-color:blue;
+	border:cyan dashed 4px;
+	display: flex;
+	max-height:900px;
+	min-height: 650px;
+	justify-content: center;
+	align-items: center;	
+	display: none; /*testing*/
+}
+h1{
+	font-family: fantasy;
+	color: cyan;
+}
+legend{
+	font-family:cursive;
+	color: cyan;
+}
+fieldset{
+	border-radius: 2%;
+}
+
+/*styles for dataset(entity.js) page*/
+#entityPage{
+	background-color: yellow;
+	border:red dashed 4px;
+	max-height:900px;
+	min-height: 650px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+#table{
+	width: 100%;
+	border: red solid 1px;
+	
+}
+	
+.row{
+	width: 99%;
+	border:green dashed 1px;
+	
+
+}
+.cell{
+	width: 30%;
+}
+#showHide{
+	background-color: azure;
+	padding:0 -3px 0 -3px;
+	border:red solid 1px;
+	color: red;
+	border-radius:50%;
+}
+header{
+	background-color: gray;
+
+}
+.tableHead{
+	font-size: x-large;
+	font-weight: lighter;
+
+}
